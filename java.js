@@ -136,3 +136,8 @@
 // // console.log(name[6]);
 
 // console.log(namess);
+
+function add(one,two){
+    var addition = one + two;
+    return addition;
+}

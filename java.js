@@ -137,7 +137,20 @@
 
 // console.log(namess);
 
-function add(one,two){
-    var addition = one + two;
-    return addition;
-}
+// function add(one,two){
+//     var addition = one + two;
+//     return addition;
+// }
+
+    var john = {
+        name: 'john',
+        age: 16,
+        fatherName: 'johnny'
+    }
+    console.log(john);
+    john.name='shariq';
+    console.log(john);
+
+    var jane = new Object();
+    jane.name = 'jane';
+    console.log(jane);
